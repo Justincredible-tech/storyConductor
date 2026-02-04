@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh auth:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git init)",
+      "Bash(git remote add origin https://github.com/Justincredible-tech/storyConductor.git)",
+      "Bash(git add storyConductor.md)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd storyConductor.md - LLM context management for long-form writing\n\nInstructions to help LLMs maintain context when writing long stories and novels.\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git add README.md)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd README with project overview and quick start guide\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}
